@@ -1,0 +1,21 @@
+#!/bin/sh
+
+fibonacci()
+{
+    if [ "$1" -gt "2" ]; then
+	
+	
+    else
+	echo 1
+    fi
+    
+
+}
+
+
+while :
+do
+    echo "What is the order of the fibonacci number you want to know?"
+    read x
+    fibonacci $x
+done
